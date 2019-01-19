@@ -1,0 +1,26 @@
+{
+  "name": "testcase-jest",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Julien Wajsberg <felash@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^23.6.0",
+    "jsdom": "^13.1.0"
+  },
+  "jest": {
+    "testEnvironment": "jsdom",
+    "moduleFileExtensions": [
+      "js"
+    ],
+    "moduleDirectories": [
+      "node_modules"
+    ],
+    "restoreMocks": true,
+    "resetMocks": true,
+    "verbose": true
+  }
+}
