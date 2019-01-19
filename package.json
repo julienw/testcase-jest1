@@ -19,8 +19,7 @@
     "moduleDirectories": [
       "node_modules"
     ],
-    "restoreMocks": true,
-    "resetMocks": true,
+    "setupTestFrameworkScriptFile": "./setup.js",
     "verbose": true
   }
 }
